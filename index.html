@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Home - Hakeem</title>
+  <meta name="next-head-count" content="16" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="preload" href="assets/css/main-style.css" as="style" crossorigin="" />
+  <link rel="stylesheet" href="assets/css/main-style.css" crossorigin="" data-n-g="" />
+  <noscript data-n-css=""></noscript>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="flex flex-col min-h-screen bg-white dark:bg-gray-950">
+    <header class="absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between px-6 py-8 mx-auto max-w-7xl lg:px-8">
+        <div class="flex lg:flex-1">
+          <a href="index.html">
+            <!-- <span class="sr-only">Hakeem</span> -->
+            <img src="assets/images/Hakeem-logo01.png" width="70" alt="">
+          </a>
+        </div>
+        <div class="flex items-center lg:hidden">
+          <button type="button" id="menu-btn" aria-controls="mobile-menu"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-300">
+            <span class="sr-only">Open main menu</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25">
+              </path>
+            </svg>
+          </button>
+          <span hidden=""
+            style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></span>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="index.html"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>الرئيسية</span>
+          </a>
+          <a href="#about"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>من نحن</span>
+          </a>
+          <!-- <a href="#partners"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>شركاء النجاح</span>
+          </a> -->
+          <a href="blogs.html"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>المدونة</span>
+          </a>
+          <a href="#contact"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>اتصل بنا</span>
+          </a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <div class="flex items-center gap-x-4"><a href="#"
+              class="px-4 py-2 text-sm font-medium capitalize transition-colors duration-200 border border-gray-200 rounded-lg dark:border-gray-800 dark:text-gray-300 dark:hover:bg-gray-800 text-zinc-700 hover:bg-gray-100">دخول</a>
+            <button type="button" id="mode-toggle"
+              class="flex items-center justify-center w-6 h-6 transition rounded-md hover:bg-gray-900/5 dark:hover:bg-white/5"
+              aria-label="Toggle dark mode">
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="w-5 h-5 stroke-gray-900 dark:hidden">
+                <path d="M12.5 10a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"></path>
+                <path stroke-linecap="round"
+                  d="M10 5.5v-1M13.182 6.818l.707-.707M14.5 10h1M13.182 13.182l.707.707M10 15.5v-1M6.11 13.889l.708-.707M4.5 10h1M6.11 6.111l.708.707">
+                </path>
+              </svg>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="hidden w-5 h-5 stroke-white dark:block">
+                <path d="M15.224 11.724a5.5 5.5 0 0 1-6.949-6.949 5.5 5.5 0 1 0 6.949 6.949Z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-1 flex flex-col w-full">
+      <div class="relative overflow-hidden isolate bg-gradient-to-b from-indigo-100/20 dark:from-gray-900">
+        <div class="pt-10 pb-24 mx-auto max-w-7xl sm:pb-20 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-40">
+          <div class="px-6 lg:px-0 lg:pt-4">
+            <div class="max-w-2xl mx-auto">
+              <div class="max-w-lg">
+                <div class="mt-24 sm:mt-32 lg:mt-16">
+                  <p
+                    class="inline-flex items-center px-4 py-1 text-sm font-semibold leading-6 text-indigo-600 rounded-full gap-x-2 bg-indigo-600/10 dark:bg-indigo-700/20 dark:text-indigo-100 dark:ring-indigo-700/20 ring-1 ring-inset ring-indigo-600/10">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12.75 19.5v-.75a7.5 7.5 0 0 0-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z">
+                      </path>
+                    </svg>حكيم
+                  </p>
+                </div>
+                <h1 class="mt-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                  <strong>حاس إنك ضايع وسط فحوصات الصحة وما تدري وش لازم تسوي؟ "حكيم" هنا علشان يسهّلها عليك</strong>
+                </h1>
+                <p class="mt-6 text-xl leading-9 text-gray-700 dark:text-gray-300 font-normal">
+                  <strong>في عالم مليان معلومات، صاير الواحد يحتار: "هل وصلت لسن أحتاج فيه فحص ؟"، "هل ضغطي وسكّري يحتاجون متابعة؟"، "وش الفحوصات اللي تناسبني أنا بالذات؟"، "وش برامج الفحص المبكر اللي نسمع عنها ؟ و وين يسوونها ، و ليش ؟"</strong>
+                  <br><br>
+                  <strong>هنا يجي دور "حكيم" — مساعدك الذكي اللي يعرّفك على وضعك الصحي، ويقولك وش الفحوصات والبرامج الوقائية اللي تناسب عمرك وجنسك، وكل هالكلام مبني على توصيات طبية موثوقة وبأسلوب سهل وواضح. و يعطيك التوصيات بشكل سجل طبي تقدر تحمله و تحفظه معاك و تاخذه معاك لموعدك القادم مع طبيبك</strong>
+                </p>
+                <div class="flex items-center mt-10 gap-x-6">
+                  <a class="rounded-lg duration-200 transition-colors bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    href="https://www.hakeemak.io/">ابدأ الآن</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:max-w-3xl lg:mx-0 lg:mt-0 lg:w-screen">
+            <div
+              class="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white dark:bg-gray-950 dark:ring-gray-800 dark:shadow-indigo-900/20 shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36"
+              aria-hidden="true"></div>
+            <img alt="Header Image" loading="lazy" width="1471" height="1036" decoding="async" data-nimg="1"
+              class="object-cover w-full h-full rounded-2xl" style="color:transparent"
+              src="assets/images/img01.png" />
+          </div>
+        </div>
+        <div class="absolute inset-x-0 bottom-0 h-24 -z-10 bg-gradient-to-t from-white dark:from-gray-950 sm:h-32">
+        </div>
+      </div>
+      <div id="about" class="py-8 overflow-hidden sm:py-24 lg:mt-6">
+        <div class="px-6 mx-auto max-w-7xl lg:px-8">
+          <div class="mx-auto text-center lg:max-w-2xl lg:pb-8 font-bold tracking-tight text-gray-900 dark:text-white">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-400 sm:text-4xl">من نحن</h2>
+            <div class="mt-6 text-xl leading-9 text-gray-700 dark:text-gray-300 font-normal">
+              <p class=""><strong>حكيم، هو مشروع طلع من قلب عيادة، ومن شغف أطباء سعوديين بصحة الناس ووقايتهم قبل لا يمرضون.</strong></p>
+              <p><strong>من خلال عملنا اليومي، شفنا ناس كثير يجهلون أهمية الفحوصات الدورية، أو ما يعرفون متى ووش يسوون بالضبط. فقررنا أطلق "حكيم" — منصّة ذكية تساعدك تتعرّف على صحتك، وتوجهك لأقرب طريق للوقاية.</strong></p>
+              <p><strong>حكيم ما يعطيك بس كلام عام، بل توصيات مبنية على عمرك، جنسك، ونمط حياتك... وبلغة قريبة للقلب، ومن مصدر تثق فيه.</strong></p>
+            </div>
+            <!-- <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+              هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى
+              غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+            </p> -->
+            <h3 class="text-2xl mt-6 mb-6">هدفنا؟</h3>
+            <p class="text-lg leading-8 text-gray-600 dark:text-gray-400">
+              نكون مرجعك الأول للصحة في السعودية
+            </p>
+          </div>
+          <div class="mt-8">
+            <img alt="" loading="lazy" width="1202" height="465" decoding="async" data-nimg="1"
+              class="object-cover w-full h-full" style="width: 70%;margin:20px auto;border-radius: 15px;"
+              src="assets/images/medical01.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="py-8 overflow-hidden sm:py-24 lg:mt-6">
+        <div class="px-6 mx-auto max-w-7xl lg:px-8">
+          <div class="mx-auto text-center lg:max-w-2xl lg:pb-8 font-bold tracking-tight text-gray-900 dark:text-white">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-400 sm:text-4xl">ليش تثق بـ حكيم؟</h2>
+            <div class="mt-6 text-lg leading-10 text-gray-600 dark:text-gray-300">
+              <p class="">لأن "حكيم" ما هو موقع عادي... ورا هالفكرة عقل طبيب وضمير إنسان.
+                كل توصية يعطيك إياها مبنية على أدلة طبية وإرشادات محدثة من مصادر موثوقة، زي وزارة الصحة السعودية ومنظمات عالمية.
+                </p>
+              <p>وغير كذا، "حكيم" يعرفك، مو بس عمرك وجنسك، يعرف وش تحتاج بالضبط — بدون تعقيد، وبلغة تفهمها وتثق فيها.
+                ما عندنا مبيعات ولا مصالح خفية... إحنا نبيك تعيش بصحة، وتلحق الوقاية قبل لا تحتاج علاج.
+                </p>
+                <p>حكيم صادق، واضح، ويشتغل علشانك.</p>
+            </div>
+            <!-- <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+              هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى
+              غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+            </p> -->
+            <div class="text-xl leading-9 text-gray-700 dark:text-gray-300 font-normal">
+              <h3 class="text-2xl mt-6 mb-6"><strong>رؤيتنا</strong></h3>
+              <p class="text-xl leading-9">
+                نحلم بوقت يصير فيه كل شخص في السعودية عارف وضعه الصحي، ومدرك أهمية الوقاية، قبل لا يحتاج يركض ورا العلاج.
+              </p>
+              <p>نبي نخلي الفحص الدوري شيء سهل، مفهوم، ومتوفر لكل بيت... مو بس للّي يراجع عيادة، ولا اللي عنده تأمين.
+                نبي "حكيم" يكون أول اسم يخطر في بالك إذا قلت: "وش أسوي علشان أطمّن على صحتي؟"
+                </p>
+                <p>
+                  رؤيتنا ببساطة؟<br/>
+                  مجتمع واعي، يبدأ من خطوة صغيرة... اسمها فحص.
+                </p>
+            </div>
+          </div>
+          <div class="mt-8">
+            <img alt="" loading="lazy" width="1202" height="465" decoding="async" data-nimg="1"
+              class="object-cover w-full h-full" style="width: 70%;margin:20px auto;border-radius: 15px;"
+              src="assets/images/laptop.png" />
+          </div>
+        </div>
+      </div>
+      <!-- شركاء النجاح -->
+      <!-- <div id="partners" class="py-12 sm:py-16">
+        <div class="px-6 mx-auto max-w-7xl lg:px-8">
+          <h2 class="text-lg font-semibold leading-8 text-center text-gray-900 dark:text-white">شركاء النجاح</h2>
+          <div
+            class="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <img src="assets/images/partners/brand04.png"
+              class="object-contain w-full col-span-2 transition-all duration-200 hover:grayscale-0 dark:grayscale-0 max-h-24 grayscale lg:col-span-1"
+              loading="lazy" width="400" height="260" alt="">
+            <img src="assets/images/partners/pngLogo.png"
+              class="object-contain w-full col-span-2 transition-all duration-200 hover:grayscale-0 dark:grayscale-0 max-h-24 grayscale lg:col-span-1"
+              loading="lazy" width="400" height="260" alt="">
+            <img src="assets/images/partners/coffee.png"
+              class="object-contain w-full col-span-2 transition-all duration-200 hover:grayscale-0 dark:grayscale-0 max-h-24 grayscale lg:col-span-1"
+              loading="lazy" width="400" height="260" alt="">
+            <img src="assets/images/partners/brand04.png"
+              class="object-contain w-full col-span-2 transition-all duration-200 hover:grayscale-0 dark:grayscale-0 max-h-24 grayscale lg:col-span-1"
+              loading="lazy" width="400" height="260" alt="">
+            <img src="assets/images/partners/logo.png"
+              class="object-contain w-full col-span-2 transition-all duration-200 hover:grayscale-0 dark:grayscale-0 max-h-24 grayscale lg:col-span-1"
+              loading="lazy" width="400" height="260" alt="">
+          </div>
+        </div>
+      </div> -->
+
+      <section id="contact" class="bg-gray-50 dark:bg-gray-900 py-16">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8">
+          <div class="bg-white dark:bg-gray-800 p-10 rounded-2xl shadow-lg">
+            <div class="text-center">
+              <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-8">اتصل بنا</h2>
+              <div class="space-y-6">
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  المملكة العربية السعودية، المنطقة الشرقية، الظهران
+                </p>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  <a href="mailto:contact@hakeemak.io" class="hover:text-indigo-600 dark:hover:text-indigo-400">
+                    contact@hakeemak.io
+                  </a>
+                </p>
+                <div class="mt-6">
+                  <a href="https://twitter.com/hakeemak_" target="_blank" class="inline-flex items-center text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">
+                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                    </svg>
+                    تابعنا على تويتر
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    </main>
+    <footer aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="px-6 pt-20 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-28">
+        <div class="xl:grid xl:grid-cols-1 xl:gap-20 2xl:gap-32">
+          <div class="space-y-8">
+            <div class="flex flex-col items-center">
+              <a href="index.html" class="mb-4">
+                <span class="sr-only">Hakeem</span>
+                <img src="assets/images/Hakeem-logo01.png" width="90" alt="شعار حكيم">
+              </a>
+              <p class="text-base font-medium leading-7 text-gray-700 dark:text-gray-300 text-center max-w-md">
+                حكيم هو منصة ذكية تساعدك على التعرف على صحتك وتوجيهك لأقرب طريق للوقاية. نقدم توصيات مبنية على عمرك وجنسك ونمط حياتك.
+              </p>
+            </div>
+            
+            <div class="flex justify-center space-x-6">
+              <a href="https://twitter.com/hakeemak_" target="_blank" 
+                 class="text-gray-400 transition-colors duration-200 hover:text-indigo-600 dark:hover:text-indigo-400"
+                 title="تابعنا على تويتر">
+                <span class="sr-only">Twitter</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/" target="_blank" 
+                 class="text-gray-400 transition-colors duration-200 hover:text-indigo-600 dark:hover:text-indigo-400"
+                 title="تابعنا على لينكد إن">
+                <span class="sr-only">LinkedIn</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 34 34" version="1.1">
+                  <title>linkedin</title>
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="linkedin">
+                      <polygon id="Path" points="0 0 34 0 34 34 0 34"></polygon>
+                      <path d="M25.9745833,25.98025 L22.1991667,25.98025 L22.1991667,20.0628333 C22.1991667,18.6518333 22.1708333,16.8356667 20.23,16.8356667 C18.26225,16.8356667 17.9619167,18.3713333 17.9619167,19.9594167 L17.9619167,25.98025 L14.1850833,25.98025 L14.1850833,13.8125 L17.81175,13.8125 L17.81175,15.47 L17.8613333,15.47 C18.3685,14.5151667 19.601,13.5050833 21.4426667,13.5050833 C25.2676667,13.5050833 25.976,16.0239167 25.976,19.3006667 L25.976,25.98025 L25.9745833,25.98025 Z M9.92091667,12.1479185 C9.33882044,12.1486708 8.78036913,11.9176708 8.36889753,11.5059334 C7.95742592,11.094196 7.72678662,10.5355956 7.72791253,9.9535 C7.72869932,8.74233992 8.71117294,7.76113509 9.92233303,7.76191711 C11.1334931,7.76270007 12.1146981,8.74517355 12.1139162,9.95633364 C12.1131334,11.1674937 11.1306601,12.1486988 9.9195,12.1479185 L9.92091667,12.1479185 Z M11.8135833,25.98025 L8.02683333,25.98025 L8.02683333,13.8125 L11.815,13.8125 L11.815,25.98025 L11.8135833,25.98025 Z M27.8658333,4.25 L6.13275,4.25 C5.09008333,4.25 4.25,5.07166667 4.25,6.08741667 L4.25,27.9125833 C4.25,28.9283333 5.0915,29.75 6.13133333,29.75 L27.8601667,29.75 C28.9,29.75 29.75,28.9283333 29.75,27.9125833 L29.75,6.08741667 C29.75,5.07166667 28.9,4.25 27.8601667,4.25 L27.8644167,4.25 L27.8658333,4.25 Z" id="Shape" fill="currentColor" fill-rule="nonzero"></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <div class="flex justify-center">
+              <img src="/assets/images/madeInSA_logo.svg" width="160" alt="صنع في السعودية" class="mt-4">
+            </div>
+          </div>
+        </div>
+        <div class="pt-8 mt-10 border-t border-gray-100 dark:border-gray-900 sm:mt-12 lg:mt-12">
+          <p class="text-sm leading-5 text-center text-gray-500 dark:text-gray-300">2025 كل الحقوق محفوظة © حكيم</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <div id="mobile-menu" class="hidden">
+      <div data-headlessui-portal="">
+        <button type="button" data-headlessui-focus-guard="true" aria-hidden="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"></button>
+        <div>
+          <div class="bg-white lg:hidden" id="headlessui-dialog-:r1o:" role="dialog" tabindex="-1" aria-modal="true"
+            data-headlessui-state="open" data-open="">
+            <div class="fixed inset-0 z-10"></div>
+            <div
+              class="fixed inset-y-0 right-0 z-50 w-full px-6 py-8 overflow-y-auto bg-white dark:bg-gray-950 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+              id="headlessui-dialog-panel-:r1v:" data-headlessui-state="open" data-open="">
+              <div class="flex items-center justify-between">
+                <a href="/"><span class="sr-only">حكيم</span>
+                  <h3 class="h-3 text-black transition-colors duration-500 md:h-6 dark:hidden hover:text-indigo-500">حكيم</h3>
+                  <h3 class="h-3 text-white transition-colors duration-500 md:h-6 dark:block hover:text-indigo-500">حكيم</h3>
+                </a>
+
+                  <button type="button" id="close-menu"
+                  class="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-300"><span class="sr-only">Close
+                    menu</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    class="w-5 h-5">
+                    <path
+                      d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z">
+                    </path>
+                  </svg></button>
+                </div>
+                <div class="flow-root mt-6">
+                <hr>
+                <div class="-my-6 divide-y divide-gray-500/10">
+                  <div class="py-6 space-y-8">
+                    <div>
+                      <div class="mt-2 space-y-2 ">
+                        <a
+                          class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                          href="index.html"></a>
+                        <a
+                          class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                          href="#about"></a>
+                        <!-- <a
+                          class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                          href="#partners">شركاء النجاح</a> -->
+                        <a
+                          class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                          href="blogs.html"></a>
+                        <a
+                          class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                          href="#contact"></a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="py-6"><a href="#" target="_blank"
+                      class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 dark:text-white dark:hover:bg-gray-800 hover:bg-gray-50">تسجيل الدخول</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" data-headlessui-focus-guard="true" aria-hidden="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

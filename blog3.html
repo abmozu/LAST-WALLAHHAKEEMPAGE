@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Blogs - Hakeem</title>
+  <meta name="next-head-count" content="16" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script>
+    
+  </script>
+  <link rel="preload" href="assets/css/main-style.css" as="style" crossorigin="" />
+  <link rel="stylesheet" href="assets/css/main-style.css" crossorigin="" data-n-g="" />
+  <noscript data-n-css=""></noscript>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="flex flex-col min-h-screen bg-white dark:bg-gray-950">
+    <header class="inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between px-6 py-8 mx-auto max-w-7xl lg:px-8">
+        <div class="flex lg:flex-1">
+          <a href="index.html">
+            <!-- <span class="sr-only">Hakeem</span> -->
+            <img src="assets/images/Hakeem-logo01.png" width="70" alt="">
+          </a>
+        </div>
+        <div class="flex items-center lg:hidden">
+          <button type="button" id="menu-btn"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-300">
+            <span
+              class="sr-only">Open main menu</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25">
+              </path>
+            </svg>
+          </button>
+          <span hidden=""
+            style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></span>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="index.html"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>الرئيسية</span>
+          </a>
+          <a href="#featured"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>المقالات المميزة</span>
+          </a>
+          <a href="#common"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>المقالات الشائعة</span>
+          </a>
+          <a href="#last"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span> </span>
+          </a>
+          <a href="#contact"
+            class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none text-gray-900 dark:text-white">
+            <span>اتصل بنا</span>
+          </a>
+
+          <span hidden=""
+            style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></span>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <div class="flex items-center gap-x-4"><a href="#"
+              class="px-4 py-2 text-sm font-medium capitalize transition-colors duration-200 border border-gray-200 rounded-lg dark:border-gray-800 dark:text-gray-300 dark:hover:bg-gray-800 text-zinc-700 hover:bg-gray-100">دخول</a>
+              <button type="button" id="mode-toggle"
+              class="flex items-center justify-center w-6 h-6 transition rounded-md hover:bg-gray-900/5 dark:hover:bg-white/5"
+              aria-label="Toggle dark mode"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"
+                class="w-5 h-5 stroke-gray-900 dark:hidden">
+                <path d="M12.5 10a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"></path>
+                <path stroke-linecap="round"
+                  d="M10 5.5v-1M13.182 6.818l.707-.707M14.5 10h1M13.182 13.182l.707.707M10 15.5v-1M6.11 13.889l.708-.707M4.5 10h1M6.11 6.111l.708.707">
+                </path>
+              </svg>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"
+                class="hidden w-5 h-5 stroke-white dark:block">
+                <path d="M15.224 11.724a5.5 5.5 0 0 1-6.949-6.949 5.5 5.5 0 1 0 6.949 6.949Z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-1 flex flex-col w-full">
+
+      <div class="max-w-3xl mx-auto text-gray-800 dark:text-gray-100">
+
+        <img src="assets/images/earlyscreening.png" alt="صورة تعبيرية" class="rounded-2xl shadow-lg mb-6 w-full h-64 object-cover">
+    
+        <div class="flex justify-between items-center mb-6">
+          <h1 class="text-3xl font-bold text-green-600 dark:text-green-400">
+            أمي ما تفحص… كيف أفتح معها الموضوع؟
+          </h1>
+            <!-- زر مشاركة -->
+          <div class="flex justify-end">
+            <button onclick="navigator.share && navigator.share({title: document.title, url: window.location.href})"
+              class="flex items-center gap-2 bg-green-500 hover:bg-green-600 dark:bg-green-400 dark:hover:bg-green-500 text-white dark:text-gray-900 font-semibold py-2 px-4 rounded-xl shadow transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18 8a3 3 0 1 0-2.83-2H8.83a3 3 0 1 0 0 2h6.34A3 3 0 1 0 18 8zM6 13a3 3 0 1 0-2.83 2H17.83a3 3 0 1 0 0-2H6z"/>
+              </svg>
+              مشاركة
+            </button>
+          </div>
+        </div>
+
+        <p class="mb-4">في كثير بيوت عندنا، الأم تهتم بالجميع… بس تنسى تهتم بنفسها.<br>.تطبخ، تنظّف، تهتم فينا، وتداوي كل تعب… إلا تعبها هي، تخبّيه، أو تتجاهله</p>
+    
+        <p class="mb-6">وتسأل نفسك: "وشلون أقول لها تروح تفحص؟ بدون ما تزعل؟"<br>.هنا جمعت لك خطوات بسيطة… تخليك تفتح الموضوع بحب، وبدون إحراج</p>
+    
+        <ul class="list-disc list-inside space-y-4 mb-6">
+          <li><span class="font-bold">١. لا تبدأ بكلمة "مرض"</span><br>كلمة "مرض" تخوّف، وبعض الأمهات تفهمها كأنك تتشائم. ابدأ بجملة زي:<br><span class="italic">"يمه، فيه فحص بسيط يسوونه الحين يطمنك على صحتك، وأنا ودي أطمن عليك أكثر."</span></li>
+    
+          <li><span class="font-bold">٢. خلك أنت البداية</span><br>مو لازم تقول لها: "أنتي ليه ما تفحصين؟"<br>قل لها:<br><span class="italic">"أنا سويت فحص السكر والكوليسترول مؤخر، وطلع كل شي تمام الحمد لله. خليني أحجز لك موعد مثلي علشان نكون مطمّنين."</span></li>
+    
+          <li><span class="font-bold">٣. اربط الفحص بشي تحبّه</span><br>إذا أمك تحب تمشي أو تسافر أو تطبخ لأولادها، قول لها:<br><span class="italic">"الفحص هذا يطوّل في صحتك، علشان تستمرين تسوين الأشياء اللي تحبينها وانت مرتاحة."</span></li>
+    
+          <li><span class="font-bold">٤. استخدم "حكيم" كوسيط</span><br>أحيانًا الأمهات ما يتقبلون النصيحة من أهلهم، لكن يتقبلونها من مصدر محايد وموثوق.<br>قول لها:<br><span class="italic">"يمه، فيه موقع اسمه حكيم يعطيك كل فحوصاتك المطلوبة حسب عمرك، بدون ما تروحين عيادة. تعال شوفي معي."</span><br>وخليها تدخل <a href="https://hakeembot.com" target="_blank" class="text-blue-500 hover:underline">Hakeembot.com</a></li>
+    
+          <li><span class="font-bold">٥. لا تمل، ولا تضغط</span><br>إذا قالت: "بعدين"، أو "أنا بخير"، خلك هادئ وارجع لها بلطف بعد فترة.<br>.النية واضحة، وأنت تسعى لخيرها… بتلين مع الوقت إن شاء الله</li>
+        </ul>
+    
+        <p class="mt-8 text-xl font-semibold">حكمة "حكيم" لك:</p>
+        <p class="mt-2">صحة أمك غالية… وأحيانًا كلمة حنونة، أو تصرف بسيط، يفتح باب للوقاية.<br>.لا تنتظر المشكلة… خلك أنت سبب الطمأنينة قبل الحاجة للطبيب</p>
+      
+        <!-- مقالات مشابهة -->
+        <div class="mt-14">
+          <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-gray-100 mb-12">مقالات مشابهة</h2>
+    
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition p-4">
+              <img src="assets/images/importancescreening.png" alt="مقال مشابه" class="rounded-lg mb-4 w-full">
+              <h3 class="text-lg font-semibold text-gray-700 mb-2">كيف "حكيم" يساهم في تحسين جودة حياتك؟</h3>
+              <p class="text-sm text-gray-700 mb-3">نصائح بسيطة وعملية لتحسين نمط حياتك وصحتك العامة.</p>
+              <a href="blog2.html" class="text-green-7 dark:text-gray-500 font-semibold hover:underline">اقرأ المزيد →</a>
+            </div>
+    
+            <div class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition p-4">
+              <img src="assets/images/counselling.png" alt="مقال مشابه" class="rounded-lg mb-4 w-full">
+              <h3 class="text-lg font-semibold text-gray-700 mb-2">ليه الفحص المبكر مهم؟</h3>
+              <p class="text-sm text-gray-700 mb-3">وقبل لا تسأل الطبيب... اسأل نفسك: هل فحصت؟..</p>
+              <a href="blog1.html" class="text-green-700 dark:text-gray-500 font-semibold hover:underline">اقرأ المزيد →</a>
+            </div>
+          </div>
+        </div>
+  
+  
+        <!-- زر العودة لصفحة التدوينات -->
+        <div class="flex justify-center mt-12">
+          <a href="blogs.html" class="inline-block px-6 py-2 bg-green-600 hover:bg-green-700 text-white rounded-full shadow-md transition dark:bg-green-500 dark:hover:bg-green-600">
+            العودة لصفحة التدوينات
+          </a>
+        </div>
+      
+      </div>
+
+
+    </main>
+    <footer aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="px-6 pt-20 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-28">
+        <div class="xl:grid xl:grid-cols-5 xl:gap-20 2xl:gap-32">
+          <div class="space-y-8 xl:col-span-2">
+            <a href="index.html"><span class="sr-only">Hakeem</span>
+              <img src="assets/images/Hakeem-logo01.png" width="90" alt="">
+            </a>
+            <p class="text-sm leading-6 text-gray-600 dark:text-gray-400">
+               .
+            </p>
+            <div class="flex space-x-6">
+              <a href="https://twitter.com/hakeemak_" target="_blank"
+                class="text-gray-400 transition-colors duration-200 hover:text-gray-500 dark:hover:text-gray-300"><span
+                  class="sr-only">Twitter</span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                  </path>
+                </svg></a>
+                 <a href="https://www.linkedin.com/company/ " target="_blank"
+                class="text-gray-400 transition-colors duration-200 hover:text-gray-500 dark:hover:text-gray-300"><span
+                  class="sr-only">LinkedIn</span><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6"
+                  viewBox="0 0 34 34" version="1.1">
+                  <title>linkedin</title>
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="linkedin">
+                      <polygon id="Path" points="0 0 34 0 34 34 0 34"></polygon>
+                      <path
+                        d="M25.9745833,25.98025 L22.1991667,25.98025 L22.1991667,20.0628333 C22.1991667,18.6518333 22.1708333,16.8356667 20.23,16.8356667 C18.26225,16.8356667 17.9619167,18.3713333 17.9619167,19.9594167 L17.9619167,25.98025 L14.1850833,25.98025 L14.1850833,13.8125 L17.81175,13.8125 L17.81175,15.47 L17.8613333,15.47 C18.3685,14.5151667 19.601,13.5050833 21.4426667,13.5050833 C25.2676667,13.5050833 25.976,16.0239167 25.976,19.3006667 L25.976,25.98025 L25.9745833,25.98025 Z M9.92091667,12.1479185 C9.33882044,12.1486708 8.78036913,11.9176708 8.36889753,11.5059334 C7.95742592,11.094196 7.72678662,10.5355956 7.72791253,9.9535 C7.72869932,8.74233992 8.71117294,7.76113509 9.92233303,7.76191711 C11.1334931,7.76270007 12.1146981,8.74517355 12.1139162,9.95633364 C12.1131334,11.1674937 11.1306601,12.1486988 9.9195,12.1479185 L9.92091667,12.1479185 Z M11.8135833,25.98025 L8.02683333,25.98025 L8.02683333,13.8125 L11.815,13.8125 L11.815,25.98025 L11.8135833,25.98025 Z M27.8658333,4.25 L6.13275,4.25 C5.09008333,4.25 4.25,5.07166667 4.25,6.08741667 L4.25,27.9125833 C4.25,28.9283333 5.0915,29.75 6.13133333,29.75 L27.8601667,29.75 C28.9,29.75 29.75,28.9283333 29.75,27.9125833 L29.75,6.08741667 C29.75,5.07166667 28.9,4.25 27.8601667,4.25 L27.8644167,4.25 L27.8658333,4.25 Z"
+                        id="Shape" fill="currentColor" fill-rule="nonzero"></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              </div>
+              <img src="/assets/images/madeInSA_logo.svg" width="160" alt="Made in SA">
+          </div>
+          <div class="grid gap-8 mt-16 sm:grid-cols-2 md:grid-cols-4 xl:col-span-3 xl:mt-0">
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"> </h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="index.html">الرئيسية</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="blogs.html">المدونة</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="index.html#about">من نحن</a></li>
+                <!-- <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="index.html#partners">شركاء النجاح</a></li> -->
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"> </h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 1</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 2</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 3</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"> </h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 1</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 2</a></li>
+                <li><a
+                    class="text-sm leading-6 text-gray-600 capitalize transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                    href="#">رابط 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pt-8 mt-10 border-t border-gray-100 dark:border-gray-900 sm:mt-12 lg:mt-12">
+          <p class="text-sm leading-5 text-center text-gray-500 dark:text-gray-300">2025<!-- --> كل الحقوق محفوظة ©
+            حكيم</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="mobile-menu" class="hidden">
+    <div data-headlessui-portal="">
+      <button type="button" data-headlessui-focus-guard="true" aria-hidden="true"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"></button>
+      <div>
+        <div class="bg-white lg:hidden" id="headlessui-dialog-:r1o:" role="dialog" tabindex="-1" aria-modal="true"
+          data-headlessui-state="open" data-open="">
+          <div class="fixed inset-0 z-10"></div>
+          <div
+            class="fixed inset-y-0 right-0 z-50 w-full px-6 py-8 overflow-y-auto bg-white dark:bg-gray-950 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+            id="headlessui-dialog-panel-:r1v:" data-headlessui-state="open" data-open="">
+            <div class="flex items-center justify-between">
+              <a href="/"><span class="sr-only">حكيم</span>
+                <h3 class="h-3 text-black transition-colors duration-500 md:h-6 dark:hidden hover:text-indigo-500">حكيم</h3>
+                <h3 class="h-3 text-white transition-colors duration-500 md:h-6 dark:block hover:text-indigo-500">حكيم</h3>
+              </a>
+
+                <button type="button" id="close-menu"
+                class="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-300"><span class="sr-only">Close
+                  menu</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                  class="w-5 h-5">
+                  <path
+                    d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z">
+                  </path>
+                </svg></button>
+              </div>
+              <div class="flow-root mt-6">
+              <hr>
+              <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="py-6 space-y-8">
+                  <div>
+                    <div class="mt-2 space-y-2 ">
+                      <a
+                        class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                        href="index.html">الرئيسية</a>
+                      <a
+                        class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                        href="index.html#about">من نحن</a>
+                      <!-- <a
+                        class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                        href="index.html#partners">شركاء النجاح</a> -->
+                      <a
+                        class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                        href="blogs.html">المدونة</a>
+                      <a
+                        class="block capitalize transition-colors duration-300 rounded-xl px-3 -mx-3 py-2 dark:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-100"
+                        href="#contact">اتصل بنا</a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="py-6"><a href="#" target="_blank"
+                    class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 dark:text-white dark:hover:bg-gray-800 hover:bg-gray-50">تسجيل الدخول</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" data-headlessui-focus-guard="true" aria-hidden="true"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">
+      </button>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
